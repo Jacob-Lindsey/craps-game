@@ -1,0 +1,28 @@
+{
+  "name": "craps-game",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "v16.13.1"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=members-only:* npm run devstart"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "luxon": "^2.0.1",
+    "mongoose": "^5.13.5",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.12"
+  }
+}
